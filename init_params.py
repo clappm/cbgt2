@@ -2,7 +2,7 @@ from frontendhelpers import *
 
 
 def helper_paramset(params=None):
-    if params== None:
+    if params is None:
         params = dict()
 
     celldefaults = {'N': 75,
@@ -39,7 +39,7 @@ def helper_paramset(params=None):
 
 
 def helper_popspecific(pops=None):
-    if pops == None:
+    if pops is None:
         pops = dict()
 
     popspecific = {'LIP': {'N': 204},
@@ -59,7 +59,7 @@ def helper_popspecific(pops=None):
 
 
 def helper_receptordefaults(receps=None):
-    if receps == None:
+    if receps is None:
         receps = dict()
 
     receptordefaults = {'Tau_AMPA': 2,
@@ -77,7 +77,7 @@ def helper_receptordefaults(receps=None):
 
 
 def helper_basestim(base=None):
-    if base == None:
+    if base is None:
         base = dict()
 
     basestim = {'FSI': {
@@ -129,7 +129,7 @@ def helper_basestim(base=None):
 
 
 def helper_dpmndefaults(dpmns=None):
-    if dpmns == None:
+    if dpmns is None:
         dpmns = dict()
 
     dpmndefaults = {'dpmn_tauDOP': 2,
@@ -161,7 +161,7 @@ def helper_dpmndefaults(dpmns=None):
 
 
 def helper_d1defaults(d1=None):
-    if d1 == None:
+    if d1 is None:
         d1 = dict()
 
     d1defaults = {'dpmn_type': 1,
@@ -178,7 +178,7 @@ def helper_d1defaults(d1=None):
 
 
 def helper_d2defaults(d2=None):
-    if d2 == None:
+    if d2 is None:
         d2 = dict()
 
     d2defaults = {'dpmn_type': 2,
@@ -195,7 +195,7 @@ def helper_d2defaults(d2=None):
 
 
 def helper_actionchannels(channels=None):
-    if channels == None:
+    if channels is None:
         channels = dict()
 
     actionchannels = {'action': [1, 2], }
