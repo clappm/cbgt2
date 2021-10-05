@@ -1,3 +1,4 @@
+
 # 1. IMPORTING SCRIPTS
 
 import cbgt as cbgt
@@ -10,6 +11,7 @@ import generateepochs as gen
 from agentmatrixinit import *
 from agent_timestep import timestep_mutator, multitimestep_mutator
 import mega_loop as ml
+
 
 
 # 2. NETWORK PIPELINE
@@ -65,6 +67,7 @@ def codeblock_init_Q_df(self):
 
 def codeblock_update_Q_df(self):
     self.Q_df, self.Q_support_params, self.dpmndefaults = qval.helper_update_Q_df(self.Q_df, self.Q_support_params, self.dpmndefaults,pl.trial_num)
+
 
 # 2.2 Create reward pipeline 
     
